@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 8px #dadada;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 9;
+}
+
+header h1 img {
+    margin-left: 5em;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    padding: 10px;
+}
+
+#span-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1em;
+    color: black;
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+#resume button {
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#resume button:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+#resume a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#account {
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 5em;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#account a {
+    color: white;
+    text-decoration: none;
+}
+
+#account:hover {
+    cursor: pointer;
+    background-color: #6a2106;
+}
+
+.tutto {
+    height: 100vh;
+    display: flex;
+}
+
+main {
+    margin-left: 5em;
+    margin-right: 4em;
+    width: 65%;
+    z-index: 2;
+    margin-top: 8em;
+    height: 100vw;
+}
+
+#follow {
+    border-bottom: solid 2px #EBEBEB;
+    padding-bottom: 9px;
+    padding-left: 5px;
+    position: sticky;
+    top: 4.5em;
+    background-color: white;
+    padding-top: 2em;
+    padding-right: 2em;
+    z-index: 3;
+}
+
+#follow a {
+    text-decoration: none;
+    color: grey;
+}
+
+#follow a:nth-child(2) {
+    margin-left: 15px;
+}
+
+#follow a:focus {
+    color: black;
+    border-bottom: solid 2px black;
+    padding-bottom: 12px;
+}
+
+.videocard ion-icons {
+    position: relative;
+    z-index: 1;
+}
+
+.imglogo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.immagini {
+    width: 220px;
+    height: 130px;
+}
+
+.nobarra {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+}
+
+.a-icon {
+    color: black;
+}
+
+.videolista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.videocard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4.5em;
+}
+
+.cardvideo {
+    margin-right: 3em;
+}
+
+.videocard div>* {
+    margin-top: 4px;
+}
+
+.primoa {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sopralink {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.videocard h2 {
+    font-size: 17px;
+}
+
+.videocard p {
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.videocard span {
+    font-size: 11px;
+    margin-right: 3px;
+}
+
+.sottolink {
+    font-size: 11px;
+    border-radius: 20px;
+    padding: 3px 6px;
+    background-color: #EBEBEB;
+    margin-right: 5px;
+}
+
+.sottovideo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.videospan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons {
+    font-size: 16px;
+}
+
+.icons ion-icon:first-child {
+    padding-right: 4px;
+}
+
+#lato {
+    position: relative;
+    z-index: 2;
+    top: 4em;
+    border-left: solid 2px #EBEBEB;
+    height: 100vw;
+    padding-top: 0;
+    padding-bottom: 0%;
+    padding-left: 4em;
+    padding-right: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    margin-top: 4.7em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 4em;
+}
+
+.twitter {
+    color: #1DA1F3;
+}
+
+aside div {
+    margin-bottom: 20px;
+}
+
+aside div img {
+    width: 45px;
+}
+
+aside div ion-icon {
+    font-size: 25px;
+}
+
+.loghilato {
+    display: flex;
+    align-items: center;
+}
+
+.discover {
+    font-size: 17px;
+    text-align: center;
+    width: 315px;
+}
+
+.asidebutton {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: solid 1px #C0C0C0;
+    background-color: white;
+}
+
+.asidebutton:hover {
+    cursor: pointer;
+}
+
+.asidebutton ion-icon {
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.sibarra {
+    color: #c0c0c1;
+    font-size: 13px;
+}
+
+.barraori {
+    text-align: center;
+    border-bottom: solid 2px #EBEBEB;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    position: sticky;
+    top: 6em;
+}
+
+h3 {
+    margin-top: 2em;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.footercont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    margin-bottom: 3em;
+
+}
+
+.footer-a {
+    text-decoration: none;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    color: black;
+    padding: 10px 19px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin: 3px;
+}
+
+.who {
+    margin-bottom: -25px;
+}
+
+.who h2 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: -12px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.follow img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.follow div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-right: 110px;
+}
+
+.follow div p {
+    font-size: 13px;
+}
+
+.follow a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 7px 17px;
+    font-size: 13px;
+}
+
+.ultima {
+    margin-top: 10em;
+    width: 393px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.afinali {
+    text-decoration: none;
+    color: grey;
+    margin-right: 31px;
+    margin-bottom: 15px;
+}
